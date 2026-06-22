@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMate AI</title>
+
+    <link rel="stylesheet" href="/static/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- Sidebar -->
+
+        <div class="sidebar">
+
+            <div class="logo-section">
+                <div class="logo">
+                    🌎
+                </div>
+
+                <div>
+                    <h2>TravelMate AI</h2>
+                    <p>Voice Travel Agent</p>
+                </div>
+            </div>
+
+            <div class="features">
+
+                <div class="feature-card">
+                    ✈ Flight Planning
+                </div>
+
+                <div class="feature-card">
+                    🏨 Hotel Search
+                </div>
+
+                <div class="feature-card">
+                    🗺 Trip Itinerary
+                </div>
+
+                <div class="feature-card">
+                    🌍 Destinations
+                </div>
+
+                <div class="feature-card">
+                    🎒 Travel Advice
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Main Content -->
+
+        <div class="main">
+
+            <!-- Header -->
+
+            <div class="header">
+
+                <div>
+
+                    <h1>TravelMate AI</h1>
+
+                    <p>
+                        Your intelligent voice-powered travel assistant
+                    </p>
+
+                </div>
+
+                <div style="display:flex;align-items:center;gap:15px;">
+
+                    <!-- Language Selector -->
+
+                    <select
+                        id="languageSelect"
+                        style="
+                            padding:10px;
+                            border-radius:10px;
+                            border:1px solid #ddd;
+                            font-family:Poppins;
+                            cursor:pointer;
+                        "
+                    >
+
+                        <option value="en-US">
+                            English
+                        </option>
+
+                        <option value="hi-IN">
+                            हिन्दी
+                        </option>
+
+                        <option value="bn-IN">
+                            বাংলা
+                        </option>
+
+                        <option value="ta-IN">
+                            தமிழ்
+                        </option>
+
+                        <option value="te-IN">
+                            తెలుగు
+                        </option>
+
+                        <option value="mr-IN">
+                            मराठी
+                        </option>
+
+                        <option value="gu-IN">
+                            ગુજરાતી
+                        </option>
+
+                        <option value="kn-IN">
+                            ಕನ್ನಡ
+                        </option>
+
+                        <option value="ml-IN">
+                            മലയാളം
+                        </option>
+
+                    </select>
+
+                    <div class="status-badge">
+                        <span id="status">
+                            Ready
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Welcome Banner -->
+
+            <div class="hero">
+
+                <div class="hero-content">
+
+                    <h2>
+                        Plan Your Next Adventure
+                    </h2>
+
+                    <p>
+                        Ask about flights, hotels, destinations,
+                        budgets, visas, itineraries and more.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Chat -->
+
+            <div id="chat" class="chat"></div>
+
+            <!-- Controls -->
+
+            <div class="controls">
+
+                <button id="micBtn" class="mic-btn">
+                    🎤 Start Talking
+                </button>
+
+                <button id="stopBtn" class="stop-btn">
+                    ⛔ Stop Voice
+                </button>
+
+            </div>
+
+            <!-- Footer -->
+
+            <div class="footer">
+
+                <div class="footer-item">
+                    Real-Time Voice AI
+                </div>
+
+                <div class="footer-item">
+                    Travel Guardrails Enabled
+                </div>
+
+                <div class="footer-item">
+                    Multilingual Ready
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="/static/audio.js"></script>
+    <script src="/static/app.js"></script>
+
+</body>
+
+</html>
+
