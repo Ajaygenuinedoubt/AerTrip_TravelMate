@@ -405,6 +405,7 @@ Evaluation:
 * Appropriate response language
 
 ---
+<img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/0bde474d-ec15-46a0-be56-559adedcb00e" />
 
 ## 6. Search Quality
 
